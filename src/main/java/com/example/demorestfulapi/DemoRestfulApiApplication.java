@@ -24,6 +24,11 @@ public class DemoRestfulApiApplication {
 	}
 
 
+	@Bean
+	public void testABC(){
+		System.out.println("ABC");
+	}
+
 //	@Bean
 //	CommandLineRunner runner(StudentResponsitory responsitory, MongoTemplate mongoTemplate){
 //		return args -> {

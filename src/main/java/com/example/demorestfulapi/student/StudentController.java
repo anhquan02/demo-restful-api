@@ -31,6 +31,7 @@ public class StudentController {
 
     @PostMapping("/students")
     public void addNewStudent(@RequestBody @Valid Student student) {
+        Systeam.out.println("ABC");
         studentService.addStudent(student);
     }
 
